@@ -7,15 +7,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: auto; 
     background: #6B59D3;
 }
 
 .main-container{
-    width: 480px;
+    width: 400px;
     background: white;
-    padding: 2rem 2rem;
-    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
     margin: 0 1rem;
    
     
@@ -24,6 +24,7 @@ h2{
     text-align: center;
     font-weight: 800;
     font-size: 2rem;
+    margin: 0;
 }
 
 .num-container{
@@ -31,7 +32,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 2rem 2rem;
+    margin: 1rem 2rem;
     z-index: 1;
 }
 .num-bar{
@@ -47,14 +48,14 @@ h2{
 .num-box{
     border-radius: 50%;
     background: lightgray;
-    padding: 1.2rem;
+    padding: 1rem;
     color: white;
 }
 .one{
     background: #6B59D3;
 }
 form{
-    margin: 1rem;
+    
     font-size: 1.2rem;
 }
 
